@@ -1,36 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:padding="24dp"
-    android:gravity="center"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <EditText
-        android:id="@+id/etUsername"
-        android:hint="@string/username"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <EditText
-        android:id="@+id/etPassword"
-        android:hint="@string/password"
-        android:inputType="textPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"/>
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
 
     <Button
-        android:id="@+id/btnLogin"
-        android:text="Login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"/>
-
-    <TextView
-        android:id="@+id/tvMessage"
-        android:textColor="@android:color/holo_red_dark"
-        android:layout_marginTop="12dp"
+        android:id="@+id/btnStartService"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Enable Tracking" />
 </LinearLayout>
