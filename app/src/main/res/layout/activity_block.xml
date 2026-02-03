@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="#F44336" android:gravity="center" android:orientation="vertical">
+    android:background="#FD3E34" android:gravity="center" android:orientation="vertical">
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TIME IS UP!" android:textColor="#FFFFFF" android:textSize="30sp" />
-    <Button android:id="@+id/btnGoHome" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GO HOME" />
+    <Button
+        android:id="@+id/btnGoHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO HOME"
+        android:backgroundTint="#000000"
+        />
 </LinearLayout>
